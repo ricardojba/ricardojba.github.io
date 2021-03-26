@@ -1,0 +1,60 @@
+title: "vibrio's personal infosec blog"
+author: "vibrio"
+description: "vibrio@work"
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Layout
+
+sidebar: true             # show a sidebar instead of the usual header
+show_excerpts: true       # show article excerpts on the home page
+show_related: true        # show the previous and next links after every post
+show_description: true    # show the site description in the sidebar
+show_title: false         # always keep the site title visible
+
+# Styling
+dark_header: true            # always keep the header dark
+minimal: false               # use simpler style
+#theme: jekyll-theme-hacker
+
+# Menu
+
+navigation:
+  - {file: "index.html", icon: home}
+#  - {file: "tools.md", icon: tools}
+#  - {file: "archive.html", icon: archive}
+  - {file: "README.md", icon: address-card}
+
+share-links-active:
+  twitter: true
+  facebook: true
+  linkedin: true
+
+external:                    # see http://fontawesome.com/icons
+#  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
+  - {title: Github, icon: github, url: "https://github.com/ricardojba"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/ricardojbalmeida/"}
+  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+ 
+comments:
+#  disqus_shortname: ""      # see https://disqus.com/
+#  isso_domain: ""           # see https://posativ.org/isso/
+
+# Exclude these files
+#exclude:
+#  - CHANGELOG.md
+#  - CNAME
+#  - Gemfile
+#  - Gemfile.lock
+#  - LICENSE
+#  - README.md
+#  - screenshot.png
+#  - docs/
+
+plugins:
+ - jekyll-feed
+ - jemoji
+# - jekyll-paginate
+# - jekyll-sitemap
