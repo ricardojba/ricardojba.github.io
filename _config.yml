@@ -56,5 +56,5 @@ comments:
 plugins:
  - jekyll-feed
  - jemoji
-# - jekyll-paginate
-# - jekyll-sitemap
+ - jekyll-paginate
+ - jekyll-sitemap
