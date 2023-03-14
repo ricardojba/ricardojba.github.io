@@ -31,7 +31,7 @@ navigation:
 
 share-links-active:
   twitter: true
-  facebook: true
+  facebook: false
   linkedin: true
 
 external:                    # see http://fontawesome.com/icons
